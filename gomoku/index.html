@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>五子棋 Gomoku</title>
+  <link rel="icon" href="assets/stone-black.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>五子棋 Gomoku</h1>
+    <div class="controls">
+      <button id="newGameBtn">新对局</button>
+      <button id="undoBtn">悔棋</button>
+      <label class="size-picker">尺寸
+        <select id="boardSizeSelect">
+          <option value="15">15x15</option>
+          <option value="19">19x19</option>
+        </select>
+      </label>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="board-panel">
+      <canvas id="board" width="720" height="720" aria-label="Gomoku board" role="img"></canvas>
+      <div class="status-bar">
+        <span id="turnIndicator">黑棋先手</span>
+        <span id="result"></span>
+      </div>
+    </section>
+
+    <aside class="info-panel">
+      <h2>规则与示意</h2>
+      <div class="legend">
+        <div class="legend-item">
+          <img src="assets/stone-black.svg" alt="黑棋" />
+          <span>黑棋（先手）</span>
+        </div>
+        <div class="legend-item">
+          <img src="assets/stone-white.svg" alt="白棋" />
+          <span>白棋（后手）</span>
+        </div>
+      </div>
+      <ol class="rules">
+        <li>黑棋先行，双方交替在网格交点落子。</li>
+        <li>五子相连（横、竖、斜均可）者胜。</li>
+        <li>点击“悔棋”可撤销上一步。</li>
+        <li>点击“新对局”可重新开始。</li>
+      </ol>
+      <div class="tips">
+        小贴士：支持 15x15 与 19x19 棋盘，画布自适应高清显示。
+      </div>
+    </aside>
+  </main>
+
+  <footer class="app-footer">© 2025 五子棋</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
