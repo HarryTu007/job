@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>飞机打小蜜蜂</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="hud">
+    <div>分数: <span id="score">0</span></div>
+    <div>生命: <span id="lives">3</span></div>
+    <div>关卡: <span id="level">1</span></div>
+  </div>
+  <canvas id="game" width="480" height="640"></canvas>
+
+  <div id="overlay" class="show">
+    <h1>飞机打小蜜蜂</h1>
+    <p>方向键左右移动，空格发射子弹</p>
+    <button id="startBtn">开始游戏</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
