@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>天空滚球 - Sky Ball</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <div class="left">
+        <span id="timer">0.0s</span>
+        <span id="attempts">x1</span>
+      </div>
+      <div class="right">
+        <span id="progress">0%</span>
+      </div>
+    </div>
+    <div id="overlay" class="show">
+      <div class="card">
+        <h1>天空滚球</h1>
+        <p>WASD/方向键移动，空格跳跃；R重置；Enter重开</p>
+        <button id="startBtn">开始游戏</button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
