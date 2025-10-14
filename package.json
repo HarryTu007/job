@@ -1,0 +1,14 @@
+{
+  "name": "3d-sky-ball-game",
+  "version": "1.0.0",
+  "description": "3D Sky Ball Obstacle Course Game",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "start": "python3 -m http.server 8080"
+  },
+  "keywords": ["game", "3d", "threejs", "obstacle-course"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}
