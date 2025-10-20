@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/workspace/build/src/core",
+  "command": "/usr/bin/c++  -I/workspace/src/core -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/force_core.dir/MockForceProvider.cpp.o -c /workspace/src/core/MockForceProvider.cpp",
+  "file": "/workspace/src/core/MockForceProvider.cpp",
+  "output": "src/core/CMakeFiles/force_core.dir/MockForceProvider.cpp.o"
+},
+{
+  "directory": "/workspace/build/src/core",
+  "command": "/usr/bin/c++  -I/workspace/src/core -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/force_core.dir/ForceHistoryBuffer.cpp.o -c /workspace/src/core/ForceHistoryBuffer.cpp",
+  "file": "/workspace/src/core/ForceHistoryBuffer.cpp",
+  "output": "src/core/CMakeFiles/force_core.dir/ForceHistoryBuffer.cpp.o"
+},
+{
+  "directory": "/workspace/build/src/core",
+  "command": "/usr/bin/c++  -I/workspace/src/core -std=gnu++17 -fPIC -Wall -Wextra -Wpedantic -o CMakeFiles/force_core.dir/ForceDataModel.cpp.o -c /workspace/src/core/ForceDataModel.cpp",
+  "file": "/workspace/src/core/ForceDataModel.cpp",
+  "output": "src/core/CMakeFiles/force_core.dir/ForceDataModel.cpp.o"
+},
+{
+  "directory": "/workspace/build/tests",
+  "command": "/usr/bin/c++  -I/workspace/tests -I/workspace/tests/../src/core -I/workspace/src/core -std=gnu++17 -fPIE -o CMakeFiles/core_tests.dir/test_main.cpp.o -c /workspace/tests/test_main.cpp",
+  "file": "/workspace/tests/test_main.cpp",
+  "output": "tests/CMakeFiles/core_tests.dir/test_main.cpp.o"
+},
+{
+  "directory": "/workspace/build/tests",
+  "command": "/usr/bin/c++  -I/workspace/tests -I/workspace/tests/../src/core -I/workspace/src/core -std=gnu++17 -fPIE -o CMakeFiles/core_tests.dir/test_core.cpp.o -c /workspace/tests/test_core.cpp",
+  "file": "/workspace/tests/test_core.cpp",
+  "output": "tests/CMakeFiles/core_tests.dir/test_core.cpp.o"
+}
+]

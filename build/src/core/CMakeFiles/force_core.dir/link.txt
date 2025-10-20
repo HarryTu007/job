@@ -1,0 +1,2 @@
+/usr/bin/ar qc libforce_core.a CMakeFiles/force_core.dir/MockForceProvider.cpp.o CMakeFiles/force_core.dir/ForceHistoryBuffer.cpp.o CMakeFiles/force_core.dir/ForceDataModel.cpp.o
+/usr/bin/ranlib libforce_core.a

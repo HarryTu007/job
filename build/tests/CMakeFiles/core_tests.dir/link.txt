@@ -1,0 +1,1 @@
+/usr/bin/c++ -Xlinker --dependency-file=CMakeFiles/core_tests.dir/link.d CMakeFiles/core_tests.dir/test_main.cpp.o CMakeFiles/core_tests.dir/test_core.cpp.o -o core_tests  ../src/core/libforce_core.a

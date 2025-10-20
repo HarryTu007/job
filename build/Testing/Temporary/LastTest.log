@@ -1,0 +1,24 @@
+Start testing: Oct 20 02:13 UTC
+----------------------------------------------------------
+1/1 Testing: core_tests
+1/1 Test: core_tests
+Command: "/workspace/build/tests/core_tests"
+Directory: /workspace/build/tests
+"core_tests" start time: Oct 20 02:13 UTC
+Output:
+----------------------------------------------------------
+Running 2 tests...
+[ RUN      ] test_history_buffer_capacity
+[       OK ] test_history_buffer_capacity
+[ RUN      ] test_data_model_sampling_manual
+[       OK ] test_data_model_sampling_manual
+All tests passed.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"core_tests" end time: Oct 20 02:13 UTC
+"core_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 02:13 UTC
